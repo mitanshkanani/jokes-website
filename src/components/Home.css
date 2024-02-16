@@ -1,0 +1,60 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .jokeCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .jokeCard.scaleDown {
+    transform: scale(0);
+  }
+  
+  .refreshButton {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .addToFavoritesButton {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .favoritesContainer {
+    margin-top: 20px;
+  }
+  
+  .favoriteCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .favoriteCard.fade {
+    opacity: 0;
+  }
+  
