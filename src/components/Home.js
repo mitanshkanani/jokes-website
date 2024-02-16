@@ -61,7 +61,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1>😄 Random Joke 😄</h1>
+      <h1>😄 Random Jokes 😄</h1>
       <button className="refreshButton" onClick={handleRefresh}>
         Refresh
       </button>
